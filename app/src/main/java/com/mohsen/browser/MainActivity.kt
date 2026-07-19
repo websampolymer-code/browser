@@ -91,7 +91,7 @@ class MainActivity : Activity() {
 
         addressBar = EditText(this).apply {
             hint = "https://example.com"
-            singleLine = true
+            setSingleLine(true)
             imeOptions = EditorInfo.IME_ACTION_GO
             inputType = android.text.InputType.TYPE_TEXT_VARIATION_URI
             textSize = 15f
